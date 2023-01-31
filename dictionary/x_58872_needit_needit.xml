@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="a89ba346c3a0a110dd021c5ce0013165" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element display="true" label="Requested for email" mandatory="true" max_length="40" name="requested_for_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="hr" label="Request type" mandatory="true" max_length="40" name="u_choice_3" type="string">
             <choice>
                 <element inactive_on_update="false" label="Human Resources" sequence="0" value="hr"/>
